@@ -5,14 +5,15 @@ import { BiMailSend } from "react-icons/bi";
 
 function Footer() {
   return (
-    <div className=" h-96 bg-sky-200   flex items-start gap-5  justify-center py-8">
+    <div className=" h-96 bg-stone-500  flex items-start gap-5  justify-center py-8">
       <iframe
         className="w-[60%] h-80 "
-        frameborder="0"
         src="https://www.google.com/maps/embed/v1/place?q=Gonghang-daero,+Gangseo-gu,+Seoul,+South+Korea&key=AIzaSyBFw0Qbyq9zTFTd-tUY6dZWTgaQzuU17R8"
       ></iframe>
-      <div className="text-gray-600 ">
-        <div className=" font-extrabold  text-3xl mb-5">DAESUNG</div>
+      <div className="text-white ">
+        <div className=" font-extrabold  text-3xl mb-5 text-yellow-950">
+          DAESUNG
+        </div>
         <ul className="flex gap-3 mb-2">
           <li className="cursor-pointer hover:text-white">Products</li>
           <li className="cursor-pointer hover:text-white">About Us</li>
